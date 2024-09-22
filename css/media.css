@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    #today_temp {
+        font-size: 3rem;
+    }
+
+    #today_location {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+}

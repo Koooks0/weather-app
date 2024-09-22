@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 15px;
+}
+
+#search {
+    border: 2px solid #e2e8f0;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: #fff; 
+    color: #000000;
+    border-radius: 40px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+#search:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.item {
+    background-color: #ffffff; 
+    border-radius: 15px;
+    padding: 25px;
+    color: #333;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+#today-date {
+    background-color: #4a90e2;
+    padding: 10px 15px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#today-date p, #today-date span {
+    margin: 0;
+}
+
+
+#today {
+    padding-top: 20px;
+    text-align: left;
+}
+
+#today_location {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2d3748;
+}
+
+#today_temp {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #2b6cb0; 
+}
+
+#today_condition_text {
+    color: #63b3ed; 
+    margin-top: 10px;
+}
+
+
+.item-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-icons {
+    width: 24px;
+    height: 24px;
+}
+
+.item-footer p {
+    margin-left: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.next_condition_img {
+    width: 50px;
+    height: 50px;
+}
+
+h3, h5 {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.next_condition_text {
+    color: #63b3ed;
+    margin-top: 10px;
+}
+
